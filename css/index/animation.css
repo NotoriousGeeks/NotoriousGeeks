@@ -1,0 +1,39 @@
+.fade-in-slide-up{
+    opacity: 0;
+    transform: translateY(100px);
+}
+.header-border-animation{
+    opacity: 0;
+    transform: translateX(100px);
+}
+@keyframes loading-logo{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+        border-radius: 0%;
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes header-border-animation {
+    to{
+        opacity: 1;
+        transform: translateX(0);
+        border-bottom: 1px solid white;
+    }
+}
+
+@keyframes fade-in-slide-up{
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes logo-fade-in {
+    to{
+        opacity: 1;
+    }
+}

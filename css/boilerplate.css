@@ -1,0 +1,61 @@
+:root{
+    --logo-size: 100px;
+    --circle-image: 200px;
+    --square-image: 500px;
+}
+body{
+    position: relative;
+    height: 100vh;
+    transition: .2s;
+}
+.light-mode-mode{
+    background-color: #dad1c2 !important;
+    color: black !important;
+}
+.light-mode-drop-shadow{
+    filter: brightness(60%) contrast(110%) drop-shadow(0 0 10px white) !important;
+}
+.light-mode-box-shadow{
+    box-shadow: 0 0 5px .1px white !important;
+}
+.light-mode-background{
+    background-color: #dad1c2 !important;
+}
+.light-mode-color{
+    color: black !important;
+}
+.light-mode-menu-background{
+    background-color: #ba7335 !important;
+}
+.light-mode-menu-background-hover{
+    background-color: transparent !important;
+}
+.light-mode-menu-background-hover:hover{
+    background-color: #ba7335 !important;
+}
+.light-mode-menu-card-background{
+    background-color: #222222 !important;
+}
+.light-mode-footer-background{
+    background-color: #ba7445 !important;
+    color: white !important;
+}
+.light-mode-color-orange{
+    color: white !important;
+}
+.light-mode-color-orange:hover{
+    color:grey !important;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+*{
+    box-sizing: border-box;
+}
+.text-justify{
+    text-align: justify;
+    text-justify: inter-word;
+}
+.main-body{
+    visibility: hidden;
+}
