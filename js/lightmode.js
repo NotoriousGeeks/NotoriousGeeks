@@ -1,6 +1,10 @@
-let isTrue = false;
+let runOnce = false;
+
+document.querySelector(".light-mode-switch").addEventListener("click", ()=>{
+    lightmode();
+    localStorage.darkMode=(localStorage.darkMode=="true")?"false":"true";
+})
 function lightmode(){
-    lightmodeswitch();
     let dropShadowLight = document.querySelectorAll(".light-drop-shadow");
     let lightBackground = document.querySelectorAll(".light-background");
     let color = document.querySelectorAll(".light-color");
@@ -42,13 +46,23 @@ function lightmode(){
     boxShadow.forEach(e=>{
         e.classList.toggle("light-mode-box-shadow");
     })
-}
-function lightmodeswitch(){
-    if(!isTrue){
+    if(localStorage.darkMode == "true"){
         document.querySelector(".light-mode-switch").textContent = "DARK MODE";
-        isTrue = true;
-    }else{
+    }
+    if(localStorage.darkMode == "false"){
         document.querySelector(".light-mode-switch").textContent = "LIGHT MODE";
-        isTrue = false;
     }
 }
+window.onload= ()=>{
+    console.log(localStorage.darkMode, runOnce)
+    if(localStorage.darkMode=="true" && runOnce == false) {
+      lightmode();
+        runOnce = "true";
+        if(localStorage.darkMode == "true"){
+            document.querySelector(".light-mode-switch").textContent = "LIGHT MODE";
+        }
+        if(localStorage.darkMode == "false"){
+            document.querySelector(".light-mode-switch").textContent = "DARK MODE";
+        }
+    }
+  };
