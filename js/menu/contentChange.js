@@ -4,7 +4,7 @@ const menuList =
         [{"name":"Hot Choco","price":"P50.00"},{"name":"Not Available","price":"Not Available"},{"name":"Not Available","price":"Not Available"},{"name":"Not Available","price":"Not Available"}],//HOT DRINKS
         [{"name":"Java Chip","price":"P85.00"},{"name":"Coffee Jelly","price":"P85.00"},{"name":"Not Available","price":"Not Available"},{"name":"Not Available","price":"Not Available"}],//BLENDED COFFEE
         [{"name":"Not Available","price":"Not Available"},{"name":"Not Available","price":"Not Available"},{"name":"Not Available","price":"Not Available"},{"name":"Not Available","price":"Not Available"}],//OVER ICE
-        [{"name":"choco","price":"P85.00"},{"name":"Vanilla","price":"P85.00"},{"name":"Cookies & Cream","price":"P85.00"},{"name":"Not Available","price":"Not Available"}]//BLENDED CREAM
+        [{"name":"Choco","price":"P85.00"},{"name":"Vanilla","price":"P85.00"},{"name":"Cookies & Cream","price":"P85.00"},{"name":"Not Available","price":"Not Available"}]//BLENDED CREAM
     ],
     [
         [{"name":"Cabbage Sandwich","price":"P75.00"},{"name":"Hotdog & Cheese","price":"P75.00"},{"name":"Ham & Cheese","price":"P75.00"},{"name":"Not Available","price":"Not Available"}],//KOREAN TOASTS
