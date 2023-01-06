@@ -12,6 +12,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    filter:drop-shadow(0px 0px 10px #111111);
 }
 main{
     display: flex;
