@@ -107,9 +107,7 @@ body{
     .logo{
         top:50px;
     }
-    .nav-link, .nav-item{
-        background-color: transparent;
-    }
+    
     .main-menu-parent{
         flex-direction: column;
     }
@@ -130,7 +128,7 @@ body{
         top:50px;
     }
     .nav-link, .nav-item{
-        background-color: transparent;
+        background-color: #222222;
     }
     .menu-list{
         overflow: visible;
@@ -168,6 +166,9 @@ body{
     .menu-list-parent{
         text-align: center;
         overflow-x: hidden;
+    }
+    .nav-link, .nav-item{
+        background-color: transparent;
     }
     .menu-link{
         padding: 11px 20px;
